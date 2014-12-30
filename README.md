@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/bguest/tblr.png)](https://codeclimate.com/github/bguest/tblr) [![Build Status](https://travis-ci.org/bguest/tblr.png?branch=master)](https://travis-ci.org/bguest/tblr) [![Coverage Status](https://coveralls.io/repos/bguest/tblr/badge.png)](https://coveralls.io/r/bguest/tblr) [![Gem Version](https://badge.fury.io/rb/tblr.png)](http://badge.fury.io/rb/tblr) [![Dependency Status](https://gemnasium.com/bguest/tblr.png)](https://gemnasium.com/bguest/tblr)
+
 # Tblr
 
 Tblr (pronounced tabler) is a really little gem that gives you a table data type

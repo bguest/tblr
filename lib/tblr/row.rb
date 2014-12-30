@@ -1,19 +1,8 @@
+require 'refinements/string'
+using StringRefinements
+
 module Tblr
-
-  module StringRefinements
-    refine String do
-      def camelize(first_letter = :upper)
-        result = self.split("_").map{|s| s.capitalize! }.join("")
-        case first_letter
-        when :upper; result
-        when :lower; result[0].downcase + result[1..-1]
-        end
-      end
-    end
-  end
-
   class Row
-    using StringRefinements
 
     def initialize(*args)
       @headers = args[0]

@@ -15,6 +15,12 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+require 'simplecov'
+SimpleCov.start
+
+require 'coveralls'
+Coveralls.wear!
+
 require 'tblr'
 
 RSpec.configure do |config|
