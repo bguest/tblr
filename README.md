@@ -1,6 +1,6 @@
 # Tblr
 
-Table is a really little gem that gives you a table data type
+Tblr (pronounced tabler) is a really little gem that gives you a table data type
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-create a table
+Create a table
 
 ```ruby
 headers = ['firstName', 'last_name']
